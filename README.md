@@ -12,14 +12,16 @@ Copy all files to the ``custom_components/neosmartblinds`` folder
 
 Add the following lines to ``configuration.yaml``
 
+```yaml
 cover:
   - platform: neosmartblinds
-    id: ``id_of_your_hub``
-    host: ``ip_address_of_hub``
+    id: id_of_your_hub
+    host: ip_address_of_hub``
     devices:
-      ``blind1_id``:
+      blind1_id:
         name: "friendly name in HA"
-      ``blind2_id``:
+      blind2_id:
         name: "friendly name in HA"
+```
 
 Hub and Blind IDs can be found in the neosmartblinds app
